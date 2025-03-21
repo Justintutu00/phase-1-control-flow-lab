@@ -1,4 +1,7 @@
-require ( './helpers.js' );
+// Import the functions from index.js
+const { scuberGreetingForFeet, ternaryCheckCity, switchOnCharmFromTip } = require("../index");
+
+// No need for `require('./helpers.js');`, so it's removed
 
 describe('index.js', function () {
   describe('scuberGreetingForFeet()', function () {
